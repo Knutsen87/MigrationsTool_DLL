@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp358625cb686e4faa95e103b9faa10bd9">
+  <meta>
+    <name>Klassenentwurf_MigrationsTool(Project)</name>
+    <authors>Dennis Gillich</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="collaboration" type="Collaboration" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>170</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="collaboration" type="Collaboration" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>10</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-218452d7d27c47ecae61b86a893492ac" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Dennis</first-name>
+        <last-name>Gillich</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-19da8e665a3241ea9354ab905c07b234" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="p8c877bccf8844deead425ac1260e221b_934417964" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Dennis Gillich</author>
+        </authors>
+        <description />
+        <creation-date>09/27/2021 10:15:46</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p74e500eeda4748fc9487c8a7477afe32_903060206" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Dennis Gillich</author>
+          </authors>
+          <description />
+          <creation-date>09/27/2021 10:15:46</creation-date>
+          <change-date>09/27/2021 12:22:33</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="5d026f40bb3c49cc838132a4a7e4f283" cid="C001" type="class" name="Class: Datev" style-class="" change-tracking-state="added" creator="" creation-date="09/27/2021 11:41:35">
+            <owned-items>
+              <owned-item ref="a0e959a1ec344ee2860518ac2d5b39ac" />
+            </owned-items>
+            <attributes>
+              <attribute id="a1d655a22bb05405c8db955d73542583978" cid="PROP001" name="string CSV" creation-date="09/27/2021 11:55:19" property-ref="a0e959a1ec344ee2860518ac2d5b39ac" />
+            </attributes>
+            <operations>
+              <operation id="o8e72ace181eb49a180c188cb33b4435c93" cid="OP001" name="Read" creation-date="09/27/2021 11:57:02" type="" type-id="" visibility="public" />
+              <operation id="o95d5504ee17e4885a5aff43f96c69382539" cid="OP002" name="getVarList" creation-date="09/27/2021 11:57:32" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="a0e959a1ec344ee2860518ac2d5b39ac" cid="PROP001" type="property" name="string CSV" style-class="" owner="5d026f40bb3c49cc838132a4a7e4f283" creator="" creation-date="09/27/2021 11:55:19" visibility="private">
+            <feature />
+            <structural-feature type="" type-id="" />
+            <property />
+          </item>
+          <item id="3877f79c3b1c496eb4b12abf47eec9e0" cid="C002" type="class" name="Class : xRechnung" style-class="" change-tracking-state="added" creator="" creation-date="09/27/2021 11:58:22">
+            <owned-items>
+              <owned-item ref="851076ecdc244d93bfb580b9925d3f50" />
+            </owned-items>
+            <attributes>
+              <attribute id="acdaca66320ea4428b24132cfe4b07ea5871" cid="PROP002" name="List&lt;string" creation-date="09/27/2021 11:58:57" property-ref="851076ecdc244d93bfb580b9925d3f50" />
+            </attributes>
+            <operations>
+              <operation id="of69dcd0229564185b18f835cbe5099f4590" cid="OP003" name="writeXML" creation-date="09/27/2021 12:04:00" type="" type-id="" visibility="public" />
+              <operation id="oc215630d309d4cdca2443077695b4747990" cid="OP004" name="setVarList" creation-date="09/27/2021 12:15:59" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="851076ecdc244d93bfb580b9925d3f50" cid="PROP002" type="property" name="List&lt;string" style-class="" owner="3877f79c3b1c496eb4b12abf47eec9e0" creator="" creation-date="09/27/2021 11:58:57" visibility="private">
+            <feature />
+            <structural-feature multiplicity="*" type="" type-id="" />
+            <property default-value="&gt;" />
+          </item>
+          <item id="f12af52e2e9e45bb843f0a2c5d9f8448" cid="C003" type="class" name="Class: Main" style-class="" change-tracking-state="added" creator="" creation-date="09/27/2021 12:16:19">
+            <operations>
+              <operation id="o0d5282f8bf30476da742846d4108d225627" cid="OP005" name="string FilePath" creation-date="09/27/2021 12:16:43" type="" type-id="" visibility="public" />
+              <operation id="o1d7d6c7d30f941a59284e7b0cc17fef682" cid="OP008" name="ReadFile" creation-date="09/27/2021 12:22:36" type="" type-id="" visibility="public" />
+              <operation id="of160bd45999c417fa4973ed780a34e6f804" cid="OP009" name="Convert" creation-date="09/27/2021 12:22:42" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="dae555d1eef344f8b634be8aebaba111" cid="REL006" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="09/27/2021 12:21:24" from="3877f79c3b1c496eb4b12abf47eec9e0" to="f12af52e2e9e45bb843f0a2c5d9f8448" visibility="package">
+            <relation from="3877f79c3b1c496eb4b12abf47eec9e0" to="f12af52e2e9e45bb843f0a2c5d9f8448" derived="false">
+              <start-role id="umlar-47d20bda-ae59-4aa6-96c5-4ca6f786c203" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-5a1782b9-626d-4f90-96cb-eef045c46b44" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="beab12117aaa4f6b8e008419ffe82816" cid="REL005" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="09/27/2021 12:20:30" from="5d026f40bb3c49cc838132a4a7e4f283" to="f12af52e2e9e45bb843f0a2c5d9f8448" visibility="package">
+            <relation from="5d026f40bb3c49cc838132a4a7e4f283" to="f12af52e2e9e45bb843f0a2c5d9f8448" derived="false">
+              <start-role id="umlar-0256818c-5ba6-4334-9322-067600634833" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-1873f961-76c2-4bd9-9d80-8fcb66ac4225" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="670d13ffab7547e98153b7a00f59a3aa" name="Default" visible="true" enabled="true" locked="false">
+          <item id="5d026f40bb3c49cc838132a4a7e4f283" iid="0af45c1771024b1785d720678cb084c5" show-fields="true" creation-date="09/27/2021 11:41:35" order-index="0" type="entity">
+            <layout ax="682" ay="337.5" awidth="161" aheight="160" x="682" y="337.5" width="161" height="160" rotation-center="-10.5,0" />
+            <class />
+          </item>
+          <item id="3877f79c3b1c496eb4b12abf47eec9e0" iid="90c0bdfa820c484ca2a50c3c70daf936" creation-date="09/27/2021 11:58:22" order-index="1" type="entity">
+            <layout ax="402" ay="337.5" awidth="140" aheight="160" x="402" y="337.5" width="140" height="160" />
+            <class />
+          </item>
+          <item id="f12af52e2e9e45bb843f0a2c5d9f8448" iid="9faaceec6cae4b6082994c2928464dba" creation-date="09/27/2021 12:16:19" order-index="2" type="entity">
+            <layout ax="542" ay="116.5" awidth="140" aheight="160" x="542" y="116.5" width="140" height="160" />
+            <class />
+          </item>
+          <item id="beab12117aaa4f6b8e008419ffe82816" iid="8c7b63e64f28406c9f323d6f366df794" creation-date="09/27/2021 12:20:30" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="24.99997,-14.99997" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="762" y1="338" x2="682" y2="276" start-border-pos="0.124031007289886" end-border-pos="0.499218747019768" start-local-pos="64" end-local-pos="159.5" name-position="0,20">
+              <points>
+                <point x="762" y="338" />
+                <point x="682" y="276" />
+              </points>
+            </layout>
+            <relation from="5d026f40bb3c49cc838132a4a7e4f283" from-iid="0af45c1771024b1785d720678cb084c5" to="f12af52e2e9e45bb843f0a2c5d9f8448" to-iid="9faaceec6cae4b6082994c2928464dba" />
+          </item>
+          <item id="dae555d1eef344f8b634be8aebaba111" iid="828976dc004a489580d36a185cd5a5a6" creation-date="09/27/2021 12:21:24" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25.00003,-14.99997" end-multiplicity-position="31.45111,8.052655" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="472" y1="338" x2="542" y2="276" start-border-pos="0.125" end-border-pos="0.750781250011642" start-local-pos="70" end-local-pos="159.5" name-position="-22,0">
+              <points>
+                <point x="472" y="338" />
+                <point x="542" y="276" />
+              </points>
+            </layout>
+            <relation from="3877f79c3b1c496eb4b12abf47eec9e0" from-iid="90c0bdfa820c484ca2a50c3c70daf936" to="f12af52e2e9e45bb843f0a2c5d9f8448" to-iid="9faaceec6cae4b6082994c2928464dba" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

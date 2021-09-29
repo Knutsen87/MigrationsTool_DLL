@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationsTool_DLL", "MigrationsTool_DLL\MigrationsTool_DLL.csproj", "{A753207A-0EB6-4959-BD44-3A7F710F8B29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationsToolOberfläche", "MigrationsToolOberfläche\MigrationsToolOberfläche.csproj", "{9FE4CD5D-1252-4C56-8289-C7ABCB9CAB6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A753207A-0EB6-4959-BD44-3A7F710F8B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A753207A-0EB6-4959-BD44-3A7F710F8B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A753207A-0EB6-4959-BD44-3A7F710F8B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE4CD5D-1252-4C56-8289-C7ABCB9CAB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE4CD5D-1252-4C56-8289-C7ABCB9CAB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE4CD5D-1252-4C56-8289-C7ABCB9CAB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE4CD5D-1252-4C56-8289-C7ABCB9CAB6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
